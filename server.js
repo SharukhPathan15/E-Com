@@ -22,8 +22,6 @@ import { connectUsingMongoose } from "./config/mongooseconfig.js";
 import mongoose from "mongoose";
 
 
-
-
 // 2. Create Server
 const server = express();
 
