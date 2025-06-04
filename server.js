@@ -18,7 +18,7 @@ import { ApplicationError } from './src/Error-handler/ApplicationError.js';
 import {connectToMongoDB} from './src/config/mongodb.js';
 import orderRouter from "./src/features/order/order.routes.js";
 import likeRouter from "./src/features/like/like.router.js";
-import { connectUsingMongoose } from "./src/config/mongooseconfig.js";
+import { connectUsingMongoose } from "./config/mongooseconfig.js";
 import mongoose from "mongoose";
 
 
